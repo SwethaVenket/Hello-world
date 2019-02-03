@@ -55,7 +55,7 @@ class Bank{
 		Scanner scanner=new Scanner(System.in);
 				do {
 			System.out.println("1.Initiate account\n2.Deposit Money\n3.Withdraw Money\n4.Display details\n5.Exit\n");
-			System.out.println("Enter your option\n");
+			System.out.println("Enter your choice\n");
 			ch=scanner.nextInt();
 			scanner.nextLine();
 			switch(ch){
